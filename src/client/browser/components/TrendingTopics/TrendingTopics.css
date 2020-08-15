@@ -1,0 +1,9 @@
+.topics-container {
+    background: #fff;
+    padding: 2em;
+    overflow-y: auto;
+    height: auto;
+    max-height: calc(100vh - 10em);
+    padding: 2em;
+    margin-bottom: 2em;
+}

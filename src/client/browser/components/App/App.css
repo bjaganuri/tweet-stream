@@ -1,0 +1,8 @@
+body {
+  background-color: #eceff1;
+}
+
+.app-container {
+  max-width: 90%;
+  margin: 2em auto;
+}

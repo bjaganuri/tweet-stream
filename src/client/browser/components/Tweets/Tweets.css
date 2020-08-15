@@ -1,0 +1,31 @@
+.tweets-container {
+    background: #fff;
+    padding: 2em;
+    overflow-y: auto;
+    height: auto;
+    max-height: calc(100vh - 10em);
+    margin-bottom: 2em;
+  }
+  
+.card-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.tweet-desc {
+    width: 100%;
+}
+
+.tweet-desc > .header {
+    margin-bottom: 0.5em;
+}
+
+.tweet-desc > .description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

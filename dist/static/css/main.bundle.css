@@ -1,0 +1,69 @@
+body {
+  background-color: #eceff1;
+}
+
+.app-container {
+  max-width: 90%;
+  margin: 2em auto;
+}
+.logo-icon {
+  color: #00ACEE;
+}
+
+.search-container {
+  background-color: white;
+  -webkit-box-shadow: rgb(204, 204, 204) 0px 1px 2px;
+          box-shadow: rgb(204, 204, 204) 0px 1px 2px;
+  margin-bottom: 2em !important;
+}
+
+.header-container {
+  margin-bottom: 2em;
+}
+.tweets-container {
+    background: #fff;
+    padding: 2em;
+    overflow-y: auto;
+    height: auto;
+    max-height: calc(100vh - 10em);
+    margin-bottom: 2em;
+  }
+  
+.card-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.tweet-desc {
+    width: 100%;
+}
+
+.tweet-desc > .header {
+    margin-bottom: 0.5em;
+}
+
+.tweet-desc > .description {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+}
+.topics-container {
+    background: #fff;
+    padding: 2em;
+    overflow-y: auto;
+    height: auto;
+    max-height: calc(100vh - 10em);
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+/*# sourceMappingURL=main.bundle.css.map*/
